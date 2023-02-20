@@ -9,19 +9,19 @@ email = os.environ.get('EMAIL')
 passwd = os.environ.get('PASSWD')
 # server酱
 SCKEY = os.environ.get('SCKEY')
-#配置cookie
+# 配置cookie
 cookie = os.environ.get('COOKIE')
 
-login_url = '{}/auth/login'.format(url)
+# login_url = '{}/auth/login'.format(url)
 check_url = '{}/user/checkin'.format(url)
 
 
 header = {
-        'cookie':cookie,
+        'cookie': cookie,
         'origin': url,
         'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36'
 }
-data = {
+# data = {
         'email': email,
         'passwd': passwd
 }
