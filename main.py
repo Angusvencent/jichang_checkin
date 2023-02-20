@@ -24,7 +24,7 @@ header = {
 # data = {
  #       'email': email,
  #       'passwd': passwd
-}
+ # }
 try:
    # print('进行登录...')
    # response = json.loads(session.post(url=login_url,headers=header,data=data).text)
